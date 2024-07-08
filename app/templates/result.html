@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Result</title>
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .response-container {
+            margin-top: 20px;
+        }
+        .response-container h2 {
+            color: #555;
+        }
+        .response-container pre {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+            <h2>Menu</h2>
+            <div class="nav">
+                <a href="/"><i class="fas fa-house-user"></i> HomePage</a>
+                <a href="/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="#"><i class="fas fa-clipboard-list"></i> Result</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Query Result</h1>
+        <div class="response-container">
+            <h2>Response:</h2>
+            <pre id="response-text"></pre>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch the response from the server
+            fetch('/generate_response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query: sessionStorage.getItem('queryText') })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display the response in the pre element
+                if (data.response) {
+                    document.getElementById('response-text').textContent = data.response;
+                } else {
+                    document.getElementById('response-text').textContent = 'Error: ' + data.error;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to fetch the response');
+            });
+        });
+    </script>
+</body>
+</html>

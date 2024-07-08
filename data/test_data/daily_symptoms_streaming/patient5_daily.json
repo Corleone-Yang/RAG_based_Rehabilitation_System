@@ -1,0 +1,304 @@
+{
+  "daily_symptoms_streaming": [
+    {
+      "day": 1,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "83 bpm",
+        "blood_pressure": "160/100 mmHg"
+      },
+      "symptoms": ["The patient feels dizzy.", "The patient has mild chest tightness."],
+      "diet": ["Oatmeal", "Grilled chicken breast", "Steamed broccoli"]
+    },
+    {
+      "day": 2,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "82 bpm",
+        "blood_pressure": "158/98 mmHg"
+      },
+      "symptoms": ["The patient feels fatigued.", "The patient has a mild headache."],
+      "diet": ["Smoothie", "Salmon salad", "Steamed carrots"]
+    },
+    {
+      "day": 3,
+      "physical_indicators": {
+        "temperature": "36.7°C",
+        "heart_rate": "80 bpm",
+        "blood_pressure": "155/96 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 4,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "81 bpm",
+        "blood_pressure": "153/95 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 5,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "80 bpm",
+        "blood_pressure": "152/94 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has mild chest tightness."],
+      "diet": ["Congee", "Chicken soup", "Steamed bok choy"]
+    },
+    {
+      "day": 6,
+      "physical_indicators": {
+        "temperature": "36.7°C",
+        "heart_rate": "79 bpm",
+        "blood_pressure": "150/92 mmHg"
+      },
+      "symptoms": ["The patient feels slightly fatigued.", "The patient has a mild sore throat."],
+      "diet": ["Smoothie", "Steamed fish", "Stir-fried spinach"]
+    },
+    {
+      "day": 7,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "78 bpm",
+        "blood_pressure": "148/90 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has mild joint pain."],
+      "diet": ["Oatmeal", "Grilled chicken breast", "Steamed broccoli"]
+    },
+    {
+      "day": 8,
+      "physical_indicators": {
+        "temperature": "36.4°C",
+        "heart_rate": "77 bpm",
+        "blood_pressure": "147/89 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 9,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "76 bpm",
+        "blood_pressure": "145/87 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 10,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "75 bpm",
+        "blood_pressure": "143/85 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has mild chest tightness."],
+      "diet": ["Congee", "Chicken soup", "Steamed bok choy"]
+    },
+    {
+      "day": 11,
+      "physical_indicators": {
+        "temperature": "36.7°C",
+        "heart_rate": "74 bpm",
+        "blood_pressure": "142/84 mmHg"
+      },
+      "symptoms": ["The patient feels slightly fatigued.", "The patient has a mild sore throat."],
+      "diet": ["Smoothie", "Steamed fish", "Stir-fried spinach"]
+    },
+    {
+      "day": 12,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "73 bpm",
+        "blood_pressure": "140/83 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has mild joint pain."],
+      "diet": ["Oatmeal", "Grilled chicken breast", "Steamed broccoli"]
+    },
+    {
+      "day": 13,
+      "physical_indicators": {
+        "temperature": "36.4°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "139/82 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 14,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "137/80 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 15,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "135/78 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has mild chest tightness."],
+      "diet": ["Congee", "Chicken soup", "Steamed bok choy"]
+    },
+    {
+      "day": 16,
+      "physical_indicators": {
+        "temperature": "36.7°C",
+        "heart_rate": "69 bpm",
+        "blood_pressure": "133/77 mmHg"
+      },
+      "symptoms": ["The patient feels slightly fatigued.", "The patient has a mild sore throat."],
+      "diet": ["Smoothie", "Steamed fish", "Stir-fried spinach"]
+    },
+    {
+      "day": 17,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "68 bpm",
+        "blood_pressure": "132/76 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has mild joint pain."],
+      "diet": ["Oatmeal", "Grilled chicken breast", "Steamed broccoli"]
+    },
+    {
+      "day": 18,
+      "physical_indicators": {
+        "temperature": "36.4°C",
+        "heart_rate": "67 bpm",
+        "blood_pressure": "130/75 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 19,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "66 bpm",
+        "blood_pressure": "129/74 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 20,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "65 bpm",
+        "blood_pressure": "128/73 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has mild chest tightness."],
+      "diet": ["Congee", "Chicken soup", "Steamed bok choy"]
+    },
+    {
+      "day": 21,
+      "physical_indicators": {
+        "temperature": "36.7°C",
+        "heart_rate": "64 bpm",
+        "blood_pressure": "126/72 mmHg"
+      },
+      "symptoms": ["The patient feels slightly fatigued.", "The patient has a mild sore throat."],
+      "diet": ["Smoothie", "Steamed fish", "Stir-fried spinach"]
+    },
+    {
+      "day": 22,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "63 bpm",
+        "blood_pressure": "125/71 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has mild joint pain."],
+      "diet": ["Oatmeal", "Grilled chicken breast", "Steamed broccoli"]
+    },
+    {
+      "day": 23,
+      "physical_indicators": {
+        "temperature": "36.4°C",
+        "heart_rate": "62 bpm",
+        "blood_pressure": "124/70 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 24,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "61 bpm",
+        "blood_pressure": "123/69 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 25,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "60 bpm",
+        "blood_pressure": "122/68 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has mild chest tightness."],
+      "diet": ["Congee", "Chicken soup", "Steamed bok choy"]
+    },
+    {
+      "day": 26,
+      "physical_indicators": {
+        "temperature": "36.7°C",
+        "heart_rate": "59 bpm",
+        "blood_pressure": "121/67 mmHg"
+      },
+      "symptoms": ["The patient feels slightly fatigued.", "The patient has a mild sore throat."],
+      "diet": ["Smoothie", "Steamed fish", "Stir-fried spinach"]
+    },
+    {
+      "day": 27,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "58 bpm",
+        "blood_pressure": "120/66 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has mild joint pain."],
+      "diet": ["Oatmeal", "Grilled chicken breast", "Steamed broccoli"]
+    },
+    {
+      "day": 28,
+      "physical_indicators": {
+        "temperature": "36.4°C",
+        "heart_rate": "57 bpm",
+        "blood_pressure": "119/65 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 29,
+      "physical_indicators": {
+        "temperature": "36.6°C",
+        "heart_rate": "56 bpm",
+        "blood_pressure": "118/64 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 30,
+      "physical_indicators": {
+        "temperature": "36.5°C",
+        "heart_rate": "55 bpm",
+        "blood_pressure": "117/63 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has mild chest tightness."],
+      "diet": ["Congee", "Chicken soup", "Steamed bok choy"]
+    }
+  ]
+}

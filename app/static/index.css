@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.sidebar .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+}
+
+.sidebar .nav a:hover {
+    background-color: #27ae60;
+}
+
+.container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Long-Term, .Short-Term, .Suggestions {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+.Update-Recommendations p {
+    margin-bottom: 10px;
+}

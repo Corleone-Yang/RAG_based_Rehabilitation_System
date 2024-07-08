@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .memory-content {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .memory-content h3 {
+            margin-top: 0;
+        }
+        .memory-content pre {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: auto;
+        }
+        .match-content {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .match-content h3 {
+            margin-top: 0;
+        }
+        .match-content pre {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+            <h2>Menu</h2>
+            <div class="nav">
+                <a href="/"><i class="fas fa-house-user"></i> HomePage</a>
+                <a href="/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="/result"><i class="fas fa-clipboard-list"></i> Result</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Dashboard</h1>
+        
+        <div class="Memory-Management">
+            <button id="show-memory-button">Show Memory</button>
+            <button id="clear-memory-button">Clear Memory</button>
+            <div id="memory-content" class="memory-content"></div>
+        </div>
+
+        <div class="Match-Results">
+            <h2>Match Results</h2>
+            <div id="match-content" class="match-content"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('show-memory-button').addEventListener('click', function() {
+            fetch('/show_memory')
+            .then(response => response.json())
+            .then(data => {
+                const memoryContent = document.getElementById('memory-content');
+                memoryContent.innerHTML = `
+                    <h3>Short Term Memory</h3>
+                    <pre>${JSON.stringify(data.short_term_memory, null, 2)}</pre>
+                    <h3>Long Term Memory</h3>
+                    <pre>${JSON.stringify(data.long_term_memory, null, 2)}</pre>
+                    <h3>Dynamic Memory</h3>
+                    <pre>${JSON.stringify(data.dynamic_memory, null, 2)}</pre>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to fetch memory');
+            });
+        });
+
+        document.getElementById('clear-memory-button').addEventListener('click', function() {
+            fetch('/clear_memory', {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert('Memory cleared');
+                document.getElementById('memory-content').innerHTML = '';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to clear memory');
+            });
+        });
+
+        // Load match results from sessionStorage and display them
+        window.onload = function() {
+            const matchContent = document.getElementById('match-content');
+            const queryResults = sessionStorage.getItem('queryResults');
+            if (queryResults) {
+                const results = JSON.parse(queryResults).map(item => `[${item[0]}, ${item[1]}]`).join(', ');
+                matchContent.innerHTML = `[${results}]`;
+            } else {
+                matchContent.innerHTML = '<p>No match results available.</p>';
+            }
+        }
+    </script>
+</body>
+</html>
+
+

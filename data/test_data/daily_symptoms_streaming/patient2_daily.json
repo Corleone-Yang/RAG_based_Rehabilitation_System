@@ -1,0 +1,304 @@
+{
+  "daily_symptoms_streaming": [
+    {
+      "day": 1,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has a slight headache.", "The patient feels mildly fatigued."],
+      "diet": ["Congee", "Steamed fish with ginger", "Bok choy stir-fry"]
+    },
+    {
+      "day": 2,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Oatmeal", "Grilled chicken breast", "Steamed broccoli"]
+    },
+    {
+      "day": 3,
+      "physical_indicators": {
+        "temperature": "37.2°C",
+        "heart_rate": "74 bpm",
+        "blood_pressure": "119/78 mmHg"
+      },
+      "symptoms": ["The patient reports nausea.", "The patient has a mild headache."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 4,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "73 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has a slight cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 5,
+      "physical_indicators": {
+        "temperature": "37.0°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels better.", "The patient has no new symptoms."],
+      "diet": ["Smoothie", "Chicken soup", "Steamed carrots"]
+    },
+    {
+      "day": 6,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "117/78 mmHg"
+      },
+      "symptoms": ["The patient reports slight fatigue.", "The patient has no new symptoms."],
+      "diet": ["Rice", "Steamed tofu", "Boiled kale"]
+    },
+    {
+      "day": 7,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "116/77 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Porridge", "Grilled fish", "Steamed asparagus"]
+    },
+    {
+      "day": 8,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "117/78 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has no new symptoms."],
+      "diet": ["Oatmeal", "Chicken salad", "Steamed broccoli"]
+    },
+    {
+      "day": 9,
+      "physical_indicators": {
+        "temperature": "37.0°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Congee", "Steamed fish", "Bok choy stir-fry"]
+    },
+    {
+      "day": 10,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "73 bpm",
+        "blood_pressure": "119/80 mmHg"
+      },
+      "symptoms": ["The patient reports nausea.", "The patient feels tired."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 11,
+      "physical_indicators": {
+        "temperature": "37.2°C",
+        "heart_rate": "74 bpm",
+        "blood_pressure": "120/81 mmHg"
+      },
+      "symptoms": ["The patient feels better.", "The patient has a slight cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 12,
+      "physical_indicators": {
+        "temperature": "37.0°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has a mild headache."],
+      "diet": ["Smoothie", "Chicken soup", "Steamed carrots"]
+    },
+    {
+      "day": 13,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "117/78 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has no new symptoms."],
+      "diet": ["Rice", "Steamed tofu", "Boiled kale"]
+    },
+    {
+      "day": 14,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "116/77 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Porridge", "Grilled fish", "Steamed asparagus"]
+    },
+    {
+      "day": 15,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "117/78 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has no new symptoms."],
+      "diet": ["Oatmeal", "Chicken salad", "Steamed broccoli"]
+    },
+    {
+      "day": 16,
+      "physical_indicators": {
+        "temperature": "37.0°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+      "diet": ["Congee", "Steamed fish", "Bok choy stir-fry"]
+    },
+    {
+      "day": 17,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "73 bpm",
+        "blood_pressure": "119/80 mmHg"
+      },
+      "symptoms": ["The patient reports nausea.", "The patient feels tired."],
+      "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+    },
+    {
+      "day": 18,
+      "physical_indicators": {
+        "temperature": "37.2°C",
+        "heart_rate": "74 bpm",
+        "blood_pressure": "120/81 mmHg"
+      },
+      "symptoms": ["The patient feels better.", "The patient has a slight cough."],
+      "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+    },
+    {
+      "day": 19,
+      "physical_indicators": {
+        "temperature": "37.0°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels tired.", "The patient has a mild headache."],
+      "diet": ["Smoothie", "Chicken soup", "Steamed carrots"]
+    },
+    {
+      "day": 20,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "117/78 mmHg"
+      },
+      "symptoms": ["The patient feels slightly dizzy.", "The patient has no new symptoms."],
+      "diet": ["Rice", "Steamed tofu", "Boiled kale"]
+    },
+    {
+      "day": 21,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "116/77 mmHg"
+      },
+      "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+      "diet": ["Porridge", "Grilled fish", "Steamed asparagus"]
+    },
+    {
+      "day": 22,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "117/78 mmHg"
+      },
+      "symptoms": ["The patient feels a slight headache.", "The patient has no new symptoms."],
+      "diet": ["Oatmeal", "Chicken salad", "Steamed broccoli"]
+    },
+    {
+  "day": 23,
+  "physical_indicators": {
+    "temperature": "37.0°C",
+    "heart_rate": "72 bpm",
+    "blood_pressure": "118/79 mmHg"
+  },
+  "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+  "diet": ["Congee", "Steamed fish", "Bok choy stir-fry"]
+},
+{
+  "day": 24,
+  "physical_indicators": {
+    "temperature": "37.1°C",
+    "heart_rate": "73 bpm",
+    "blood_pressure": "119/80 mmHg"
+  },
+  "symptoms": ["The patient reports nausea.", "The patient feels tired."],
+  "diet": ["Rice porridge", "Boiled eggs", "Steamed spinach"]
+},
+{
+  "day": 25,
+  "physical_indicators": {
+    "temperature": "37.2°C",
+    "heart_rate": "74 bpm",
+    "blood_pressure": "120/81 mmHg"
+  },
+  "symptoms": ["The patient feels better.", "The patient has a slight cough."],
+  "diet": ["Yogurt", "Grilled salmon", "Steamed green beans"]
+},
+{
+  "day": 26,
+  "physical_indicators": {
+    "temperature": "37.0°C",
+    "heart_rate": "72 bpm",
+    "blood_pressure": "118/79 mmHg"
+  },
+  "symptoms": ["The patient feels tired.", "The patient has a mild headache."],
+  "diet": ["Smoothie", "Chicken soup", "Steamed carrots"]
+},
+{
+  "day": 27,
+  "physical_indicators": {
+    "temperature": "36.9°C",
+    "heart_rate": "71 bpm",
+    "blood_pressure": "117/78 mmHg"
+  },
+  "symptoms": ["The patient feels slightly dizzy.", "The patient has no new symptoms."],
+  "diet": ["Rice", "Steamed tofu", "Boiled kale"]
+},
+{
+  "day": 28,
+  "physical_indicators": {
+    "temperature": "36.8°C",
+    "heart_rate": "70 bpm",
+    "blood_pressure": "116/77 mmHg"
+  },
+  "symptoms": ["The patient feels normal.", "The patient has no new symptoms."],
+  "diet": ["Porridge", "Grilled fish", "Steamed asparagus"]
+},
+{
+  "day": 29,
+  "physical_indicators": {
+    "temperature": "36.9°C",
+    "heart_rate": "71 bpm",
+    "blood_pressure": "117/78 mmHg"
+  },
+  "symptoms": ["The patient feels a slight headache.", "The patient has no new symptoms."],
+  "diet": ["Oatmeal", "Chicken salad", "Steamed broccoli"]
+},
+{
+  "day": 30,
+  "physical_indicators": {
+    "temperature": "37.0°C",
+    "heart_rate": "72 bpm",
+    "blood_pressure": "118/79 mmHg"
+  },
+  "symptoms": ["The patient feels slightly dizzy.", "The patient has a mild cough."],
+  "diet": ["Congee", "Steamed fish", "Bok choy stir-fry"]
+}
+]
+}

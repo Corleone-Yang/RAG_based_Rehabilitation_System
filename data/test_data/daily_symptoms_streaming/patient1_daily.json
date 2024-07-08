@@ -1,0 +1,304 @@
+{
+  "daily_symptoms_streaming": [
+    {
+      "day": 1,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has a slight headache.", "The patient feels mildly fatigued."],
+      "diet": ["Congee", "Steamed fish with ginger", "Bok choy stir-fry"]
+    },
+    {
+      "day": 2,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels mildly dizzy.", "The patient has a sore throat."],
+      "diet": ["Soy milk and youtiao", "Mapo tofu", "Stir-fried green beans"]
+    },
+    {
+      "day": 3,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "68 bpm",
+        "blood_pressure": "119/78 mmHg"
+      },
+      "symptoms": ["The patient feels nauseous.", "The patient has slight muscle aches."],
+      "diet": ["Rice porridge with preserved egg and pork", "Sweet and sour pork", "Garlic sautéed spinach"]
+    },
+    {
+      "day": 4,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "75 bpm",
+        "blood_pressure": "117/76 mmHg"
+      },
+      "symptoms": ["The patient has a slight cough.", "The patient feels mildly congested."],
+      "diet": ["Century egg congee", "Kung pao chicken", "Steamed broccoli"]
+    },
+    {
+      "day": 5,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has mild stomach discomfort.", "The patient feels slight back pain."],
+      "diet": ["Steamed buns", "Beef and broccoli", "Braised tofu"]
+    },
+    {
+      "day": 6,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient has a mild sore throat.", "The patient feels slightly feverish."],
+      "diet": ["Soy milk and youtiao", "Stir-fried shrimp with snow peas", "Egg drop soup"]
+    },
+    {
+      "day": 7,
+      "physical_indicators": {
+        "temperature": "37.2°C",
+        "heart_rate": "71 bpm",
+        "blood_pressure": "121/81 mmHg"
+      },
+      "symptoms": ["The patient feels fatigued.", "The patient has mild joint pain."],
+      "diet": ["Congee with chicken", "Vegetable spring rolls", "Stir-fried Chinese cabbage"]
+    },
+    {
+      "day": 8,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "69 bpm",
+        "blood_pressure": "119/77 mmHg"
+      },
+      "symptoms": ["The patient has a mild headache.", "The patient feels slightly dizzy."],
+      "diet": ["Rice porridge with lean pork", "Steamed fish with soy sauce", "Stir-fried spinach"]
+    },
+    {
+      "day": 9,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has a slight cough.", "The patient feels mildly congested."],
+      "diet": ["Soy milk and youtiao", "Ma po tofu", "Stir-fried green beans"]
+    },
+    {
+      "day": 10,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has mild stomach discomfort.", "The patient feels slight back pain."],
+      "diet": ["Steamed buns", "Beef and broccoli", "Braised tofu"]
+    },
+    {
+      "day": 11,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels mildly dizzy.", "The patient has a sore throat."],
+      "diet": ["Soy milk and youtiao", "Mapo tofu", "Stir-fried green beans"]
+    },
+    {
+      "day": 12,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "68 bpm",
+        "blood_pressure": "119/78 mmHg"
+      },
+      "symptoms": ["The patient feels nauseous.", "The patient has slight muscle aches."],
+      "diet": ["Rice porridge with preserved egg and pork", "Sweet and sour pork", "Garlic sautéed spinach"]
+    },
+    {
+      "day": 13,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "75 bpm",
+        "blood_pressure": "117/76 mmHg"
+      },
+      "symptoms": ["The patient has a slight cough.", "The patient feels mildly congested."],
+      "diet": ["Century egg congee", "Kung pao chicken", "Steamed broccoli"]
+    },
+    {
+      "day": 14,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has mild stomach discomfort.", "The patient feels slight back pain."],
+      "diet": ["Steamed buns", "Beef and broccoli", "Braised tofu"]
+    },
+    {
+      "day": 15,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels mildly dizzy.", "The patient has a sore throat."],
+      "diet": ["Soy milk and youtiao", "Mapo tofu", "Stir-fried green beans"]
+    },
+    {
+      "day": 16,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "68 bpm",
+        "blood_pressure": "119/78 mmHg"
+      },
+      "symptoms": ["The patient feels nauseous.", "The patient has slight muscle aches."],
+      "diet": ["Rice porridge with preserved egg and pork", "Sweet and sour pork", "Garlic sautéed spinach"]
+    },
+    {
+      "day": 17,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "75 bpm",
+        "blood_pressure": "117/76 mmHg"
+      },
+      "symptoms": ["The patient has a slight cough.", "The patient feels mildly congested."],
+      "diet": ["Century egg congee", "Kung pao chicken", "Steamed broccoli"]
+    },
+    {
+      "day": 18,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has mild stomach discomfort.", "The patient feels slight back pain."],
+      "diet": ["Steamed buns", "Beef and broccoli", "Braised tofu"]
+    },
+    {
+      "day": 19,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels mildly dizzy.", "The patient has a sore throat."],
+      "diet": ["Soy milk and youtiao", "Mapo tofu", "Stir-fried green beans"]
+    },
+    {
+      "day": 20,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "68 bpm",
+        "blood_pressure": "119/78 mmHg"
+      },
+      "symptoms": ["The patient feels nauseous.", "The patient has slight muscle aches."],
+      "diet": ["Rice porridge with preserved egg and pork", "Sweet and sour pork", "Garlic sautéed spinach"]
+    },
+    {
+      "day": 21,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "75 bpm",
+        "blood_pressure": "117/76 mmHg"
+      },
+      "symptoms": ["The patient has a slight cough.", "The patient feels mildly congested."],
+      "diet": ["Century egg congee", "Kung pao chicken", "Steamed broccoli"]
+    },
+    {
+      "day": 22,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has mild stomach discomfort.", "The patient feels slight back pain."],
+      "diet": ["Steamed buns", "Beef and broccoli", "Braised tofu"]
+    },
+    {
+      "day": 23,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels mildly dizzy.", "The patient has a sore throat."],
+      "diet": ["Soy milk and youtiao", "Mapo tofu", "Stir-fried green beans"]
+    },
+    {
+      "day": 24,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "68 bpm",
+        "blood_pressure": "119/78 mmHg"
+      },
+      "symptoms": ["The patient feels nauseous.", "The patient has slight muscle aches."],
+      "diet": ["Rice porridge with preserved egg and pork", "Sweet and sour pork", "Garlic sautéed spinach"]
+    },
+    {
+      "day": 25,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "75 bpm",
+        "blood_pressure": "117/76 mmHg"
+      },
+      "symptoms": ["The patient has a slight cough.", "The patient feels mildly congested."],
+      "diet": ["Century egg congee", "Kung pao chicken", "Steamed broccoli"]
+    },
+    {
+      "day": 26,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has mild stomach discomfort.", "The patient feels slight back pain."],
+      "diet": ["Steamed buns", "Beef and broccoli", "Braised tofu"]
+    },
+    {
+      "day": 27,
+      "physical_indicators": {
+        "temperature": "37.1°C",
+        "heart_rate": "72 bpm",
+        "blood_pressure": "118/79 mmHg"
+      },
+      "symptoms": ["The patient feels mildly dizzy.", "The patient has a sore throat."],
+      "diet": ["Soy milk and youtiao", "Mapo tofu", "Stir-fried green beans"]
+    },
+    {
+      "day": 28,
+      "physical_indicators": {
+        "temperature": "36.9°C",
+        "heart_rate": "68 bpm",
+        "blood_pressure": "119/78 mmHg"
+      },
+      "symptoms": ["The patient feels nauseous.", "The patient has slight muscle aches."],
+      "diet": ["Rice porridge with preserved egg and pork", "Sweet and sour pork", "Garlic sautéed spinach"]
+    },
+    {
+      "day": 29,
+      "physical_indicators": {
+        "temperature": "36.8°C",
+        "heart_rate": "75 bpm",
+        "blood_pressure": "117/76 mmHg"
+      },
+      "symptoms": ["The patient has a slight cough.", "The patient feels mildly congested."],
+      "diet": ["Century egg congee", "Kung pao chicken", "Steamed broccoli"]
+    },
+    {
+      "day": 30,
+      "physical_indicators": {
+        "temperature": "37°C",
+        "heart_rate": "70 bpm",
+        "blood_pressure": "120/80 mmHg"
+      },
+      "symptoms": ["The patient has mild stomach discomfort.", "The patient feels slight back pain."],
+      "diet": ["Steamed buns", "Beef and broccoli", "Braised tofu"]
+    }
+  ]
+}

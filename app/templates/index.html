@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Dashboard</title>
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+            <h2>Menu</h2>
+            <div class="nav">
+                <a href="#"><i class="fas fa-house-user"></i> HomePage</a>
+                <a href="/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="/result"><i class="fas fa-clipboard-list"></i> Result</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Main Dashboard</h1>
+        
+        <div class="Long-Term">
+            <h2>Doctor's Notes Upload</h2>
+            <p class="description"> Please upload important information issued by the doctor here, 
+                including but not limited to discharge summary, prescription, follow-up care plan, 
+                imaging report, and appointment form. <strong>Only .docx files are accepted.</strong></p>
+            <form id="long-term-form" method="POST" enctype="multipart/form-data">
+                <input type="file" name="docx_file" accept=".docx">
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+
+        <div class="Short-Term">
+            <h2>Daily Conditions Submit</h2>
+            <p class="description"> Please submit your daily situation here, 
+                including but not limited to physical index records, symptoms, 
+                diet, medication, and exercise records.</p>
+            <form id="short-term-form">
+                <label for="daily-text">Enter your daily condition:</label><br>
+                <textarea id="daily-text" name="daily_text" rows="10" cols="50" placeholder="Describe your daily condition..."></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="Suggestions">
+            <h2>Suggestions Generate</h2>
+            <p>Here you can submit your queries to generate recommendations based on your newly submitted information.</p>
+            <form id="query-form">
+                <label for="query-text">Enter your query:</label><br>
+                <textarea id="query-text" name="query_text" rows="5" cols="40" placeholder="Describe your query..."></textarea><br><br>
+                <button type="submit">Query</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('long-term-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch('/remember_long_term', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                alert('File uploaded and remembered successfully');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('File upload and remember failed');
+            });
+        });
+
+        document.getElementById('short-term-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const dailyText = document.getElementById('daily-text').value;
+
+            fetch('/remember_short_term', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ item: dailyText })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                alert('Daily condition remembered');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to remember daily condition');
+            });
+        });
+
+        document.getElementById('query-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const queryText = document.getElementById('query-text').value;
+
+            // Remember query in dynamic memory
+            fetch('/remember_dynamic', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ item: queryText })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                alert('Query remembered');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Memory storage failed');
+            });
+
+            // Query embeddings and get similar contents
+            fetch('/query_embeddings', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query: queryText })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                alert('Query processed and results obtained');
+                // Store result in sessionStorage
+                sessionStorage.setItem('queryResults', JSON.stringify(data));
+                sessionStorage.setItem('queryText', queryText);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Query failed');
+            });
+        });
+    </script>
+</body>
+</html>
