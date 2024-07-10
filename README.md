@@ -3,7 +3,7 @@
 ### a. Pull the respitory
 ```
 cd /path/to/your/directory  
-git clone https://github.com/username/repository.git
+git clone https://github.com/Corleone-Yang/RAG_based_Rehabilitation_System.git
 ```
 
 ### b. Create the environment and activate
@@ -33,7 +33,7 @@ flask run
 ```
 
 ## 2. How to use this app
-### a. open [Link Text](http://127.0.0.1:5000/)
+### a. open [Your Localhost Address](http://127.0.0.1:5000/), The default port is Port 5000.
 
 ### b. The HomePage
 ![Screenshot 2024-07-08 at 15 34 01](https://github.com/Corleone-Yang/RAG_based_Rehabilitation_System/assets/137965901/ce8e95ee-8f76-4632-a84a-b61e46cb3ac0)
