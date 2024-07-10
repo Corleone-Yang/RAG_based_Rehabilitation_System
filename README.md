@@ -1,5 +1,5 @@
 # RAG_based_Rehabilitation_System
-## 1. How to run this app
+## 1. How to setup before running.
 ### a. Pull the respitory
 ```
 cd /path/to/your/directory  
