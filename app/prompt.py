@@ -1,16 +1,16 @@
 import openai
 import os
 
-# 设置你的OpenAI API密钥
+# set your OpenAI Key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_openai_response(short_term_memory, long_term_memory, dynamic_memory, query, query_result):
-    # 将记忆列表转换为字符串
+    # transform the memory list to string
     short_term_memory_str = "\n".join(short_term_memory)
     long_term_memory_str = "\n".join(long_term_memory)
     dynamic_memory_str = "\n".join(dynamic_memory)
     
-    # 将所有信息合并成一个消息列表
+    # combine all the infromation into a message list
     messages = [
         {"role": "system", "content": "You are an AI assistant helping a patient post-discharge."},
         {"role": "user", "content": "Short Term Memory includes but not limited to physical index records, symptoms, diet, medication, and exercise records, all data will be stored for ten days.\nShort Term Memory:\n" + short_term_memory_str},
@@ -22,7 +22,7 @@ def get_openai_response(short_term_memory, long_term_memory, dynamic_memory, que
     ]
     
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",  # 使用适当的模型名称
+        model="gpt-3.5-turbo",  # choose your model
         messages=messages,
     )
     
