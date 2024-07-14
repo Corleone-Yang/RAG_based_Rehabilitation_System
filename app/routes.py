@@ -90,27 +90,27 @@ def query_embeddings():
 
 @routes.route('/generate_response', methods=['POST'])
 def generate_response():
-    # 从应用上下文中检索匹配项
+    # get the matched item from app
     query_result_position = current_app.match
 
-    # 确保query_result_position不为None
+    # make sure query_result_position is not None
     if query_result_position is None:
         return jsonify({'error': 'No query result found'}), 400
 
     response_data = []
     documents_filepath = os.path.join(os.path.dirname(__file__), '../data/documents.json')
     with open(documents_filepath, 'r') as file:
-        documents = json.load(file)  # 基于ID加载文档的函数
+        documents = json.load(file)  
 
     for doc_id, position in query_result_position:
         if str(doc_id) in documents and position < len(documents[str(doc_id)]['content']):
             response_data.append(documents[str(doc_id)]['content'][position])
 
     print(response_data)
-    # 获取用于生成响应的记忆和查询
-    short_term_memory = [item[0] for item in current_app.stm.recall()]  # 仅获取文本部分
-    long_term_memory = [item[0] for item in current_app.ltm.recall()]  # 仅获取文本部分
-    dynamic_memory = [item[0] for item in current_app.dm.recall()]  # 仅获取文本部分
+    # get the memory to generate response
+    short_term_memory = [item[0] for item in current_app.stm.recall()]  
+    long_term_memory = [item[0] for item in current_app.ltm.recall()]  
+    dynamic_memory = [item[0] for item in current_app.dm.recall()]  
     query = request.json.get('query')
     combined_content = "\n".join(response_data)
 
