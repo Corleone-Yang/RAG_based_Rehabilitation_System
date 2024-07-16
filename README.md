@@ -9,12 +9,12 @@ git clone https://github.com/Corleone-Yang/RAG_based_Rehabilitation_System.git
 ### b. Create the environment and activate
 Mac:
 ```
-python3 -m venv venv
+python3.9 -m venv venv
 source venv/bin/activate
 ```
 Windows:
 ```
-python -m venv venv
+python3.9 -m venv venv
 .\venv\Scripts\activate
 ```
 
