@@ -22,7 +22,7 @@ def get_openai_response(short_term_memory, long_term_memory, dynamic_memory, que
     ]
     
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",  # choose your model
+        model="gpt-4-32k",  # choose your model
         messages=messages,
     )
     
