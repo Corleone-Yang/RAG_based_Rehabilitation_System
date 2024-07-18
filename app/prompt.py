@@ -11,7 +11,7 @@ def summarize_memory(memory_list, memory_type):
         summary_response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",  # Use a cheaper model for summarization
             messages=[
-                {"role": "system", "content": f"Please summarize the following {memory_type}:"},
+                {"role": "system", "content": f"Please summarize the following in 800 tokens {memory_type}:"},
                 {"role": "user", "content": item}
             ]
         )
