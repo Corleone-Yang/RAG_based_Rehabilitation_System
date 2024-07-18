@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request, jsonify, current_app
 from utils.docx_handler import extract_text_from_docx
 from app.embedding import process_query
-from app.prompt import get_openai_response
+from app.prompt import get_openai_response, summarize_memory
 import os
 import json
 
