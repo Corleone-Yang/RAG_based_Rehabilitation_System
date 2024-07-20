@@ -52,4 +52,4 @@ You can ask questions.
 
 ### d. The Result
 ![Screenshot 2024-07-08 at 15 47 45](https://github.com/Corleone-Yang/RAG_based_Rehabilitation_System/assets/137965901/aa8c61ad-fe07-47e1-9983-18e8bc96acd9)
-Here you can get the response form the RAG system and OpenAI prompt generattion. Off courese you can test different LLMs like llama3 from huggingface or LangChain API.
+Here you can get the response form the RAG system and OpenAI prompt generation. Off courese you can test different LLMs like llama3 from huggingface or LangChain API.
